@@ -1,3 +1,5 @@
+// 162. Find Peak Element
+
 class Solution {
     public int findPeakElement(int[] nums) {
         if(nums.length == 1) return 0;
