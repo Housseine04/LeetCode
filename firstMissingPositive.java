@@ -1,5 +1,10 @@
 // 41. First Missing Positive
 
+/*
+* General idea : Looking for a missing value (before / between / after) successive integers. Use indexes of array to track mismatch
+* Complexity : O(n)
+*/
+
 class Solution {
     public static int firstMissingPositive(int[] nums) {
         if(nums.length == 0) return 1;
